@@ -1,0 +1,130 @@
+1.Are the html tags and element the same thing
+
+--> Html tag and eleemnt are note a same tags
+	Html tag are used the to hold the html and element holds to conetct
+
+
+2.What are tags and attributes in HTML?
+
+--> HTML tags are used to hold the HTML element. HTML element holds the content. HTML attributes are used to describe the characteristic of an HTML element in detail. 
+
+
+3.What are void elements in HTMl?
+
+-->A void element is an element whose content model never allows it to have contents under any circumstances. Void elements can have attributes. The following is a complete list of the void elements in HTML : area , base , br , col , command , embed , hr , img , input , keygen , link , meta , param , source , track , wbr.
+
+4.What are HTML Entitis?
+
+-->An HTML entity is a piece of text ("string") that begins with an ampersand ( & ) and ends with a semicolon ( ; ). Entities are frequently used to display reserved characters (which would otherwise be interpreted as HTML code), and invisible characters (like non-breaking spaces)
+
+5.What are diffrent types of lists in HTMl
+
+--> IN HTML 3 types of lists
+	1.ordered list(ol)
+	2.unordered list(ul)
+	3.Description list or Definition list(dl)
+
+6.What is the 'class' attributes in HTML?
+
+-->The class attribute specifies one or more classnames for an element. The class attribute is mostly used to point to a class in a style sheet. However, it can also be used by a JavaScript (via the HTML DOM) to make changes to HTML elements with a specified class
+
+7.What is the difference between the 'id' attributes and the 'class' attributes of HTML element?
+
+-->			ID
+	 “id” is unique in a page and can only apply to at most one element, 
+
+			class
+	“class” selector can apply to multiple elements.
+
+8.What are the varios fommatting tags in HTML?
+
+-->
+    <b> - Bold text
+    <strong> - Important text
+    <i> - Italic text
+    <em> - Emphasized text
+    <mark> - Marked text
+    <small> - Smaller text
+    <del> - Deleted text
+    <ins> - Inserted text
+    <sub> - Subscript text
+    <sup> - Superscript text
+
+9.How is Cell Padding different from Cell Spacing?
+
+-->Cellpadding:
+
+Cellpadding specifies the space between the border of a table cell and its contents (i.e) it defines the whitespace between the cell edge and the content of the cell.
+
+Syntax:
+
+<table cellpadding="value" >.....</table>
+where, value determines the padding 
+(space between the border of a table and its content)
+
+-->Cellspacing 
+specifies the space between cells (i.e) it defines the whitespace between the edges of the adjacent cells.
+
+Syntax:
+
+<table cellspacing="value" >.....</table>
+where, value determines the padding 
+
+
+10.How can we club two or more rows of colomms into a single row or collmn in an HTML table?
+
+-->It can be done by using the rowspan and colspan attribute in HTML. The rowspan is used to merge or combine the number of cells in a row whereas the colspan is used to merge column cells in a table.
+
+11.What is the difference between a block-leval element and inline element?
+
+-->block element start with a new line and block element are used  cover full width 
+
+-->inline element is not start a new line and it can not used full width  An inline element only takes up as much width as necessary. 
+
+12.How to create hyparlink in html?
+
+--> <a> tags used to the create a hyperlink in html
+		
+	syntex:-
+		<a href="#">.....</a>
+
+
+13.What is the use of an iframe tag?
+
+-->The <iframe> tag specifies an inline frame.
+
+An inline frame is used to embed another document within the current HTML document.
+	ifame create a frame used to our html page
+
+	syntex:-
+<iframe src="/default.asp" width="100%" height="300" style="border:1px solid black;">
+</iframe>
+
+14.What is uss of span tag?Explain with Example
+
+-->The <span> tag is an inline container used to mark up a part of a text, or a part of a document. The <span> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute. The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element.
+
+Example:-
+<span>
+		<h1>hello world</h1>
+</span>
+
+15.how to insert a picture into a background image of a web page?
+
+--> <img> tag are used to the backgruond iamge in web page
+
+16.how are active links differant from normal links?
+
+-->Normal links are links which are there on the page and have not been clicked yet. Active links are those links, which have just been clicked at that instant.
+
+17.what are the differant text to seprate sectionof text?
+
+-->There are three tags used to separate the texts. i.e. usually <br> tag is used to separate line of texts. Other tags are<p> tag and <blockquote> tag.
+
+18.what is the diffarnce between HTML and XHTML?
+
+--> HTML is the standards markup langauage for creating a web pages , while XHTML is a stricter an more standrerazied version of HTML
+
+19.what are logical and physical tags in HTML?
+
+-->Physical and Logical tags are used in HTML for better visibility and understanding of the text by the user on the web page. However, both tags differ from each other as suggested by their names. Logical Tags : Logical Tags are used in HTML to display the text according to the logical styles.
