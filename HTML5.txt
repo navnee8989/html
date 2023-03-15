@@ -1,0 +1,107 @@
+1.What are the new tags added in HTML5?
+
+==>Elements introduced in HTML5
+
+There has been a few elements introduced in HTML5. Some of them were imported from XHTML2, others from large statistical surveys on made by Google, Opera and other people. The analysis of class names and id names helped defining what were the most common semantic patterns. These new elements are not yet completely imported in all browsers at this time.
+
+
+    (MOVED) article
+    (MOVED) aside
+    audio
+    canvas
+    command
+    datalist
+    details
+    embed
+    figcaption
+    figure
+    footer
+    header
+    hgroup
+    keygen
+    mark
+    math
+    meter
+    nav
+    output
+    progress
+    rp
+    rt
+    ruby
+    section
+    source
+    summary
+    svg
+    time
+    track
+    video
+    wbr
+
+
+2.How to embed audio and video in a webpage?
+
+==>Video Element
+
+The <video> element allows us to embed video files into an HTML, very similar to the way images are embedded.
+
+Attributes we can include are:
+
+    src This attribute stands for the source, which is very similar to the src attribute used in the image element. We will add the link to a video file in the src attribute.
+    type This is going to be video/mp4 because .mp4 is the format of the video we are using. We can also use different video formats like .ogg or .webm, then the value of type attribute will change to video/ogg or video/WebM respectively.
+
+syntex :- <video src="file path" alt="add external value for no playing video">
+
+			audio
+
+The <audio> tag is used to embed sound content in a document, such as music or other audio streams.
+
+The <audio> tag contains one or more <source> tags with different audio sources. The browser will choose the first source it supports.
+
+The text between the <audio> and </audio> tags will only be displayed in browsers that do not support the <audio> element.
+
+ <audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio> 
+
+
+3.Semantic element in HTML5?
+
+==>
+
+               
+
+
+4.Canvas and SVG tags?
+
+==>		Canvas
+
+	The HTML <canvas> element is used to draw graphics, on the fly, via JavaScript.
+
+The <canvas> element is only a container for graphics. You must use JavaScript to actually draw the graphics.
+
+Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
+
+Example:- 
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+</canvas>
+
+
+			SVG
+
+	==>
+    SVG stands for Scalable Vector Graphics
+    SVG is used to define graphics for the Web
+    SVG is a W3C recommendation 
+
+		Example
+<html>
+<body>
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+
+</body>
+</html>
